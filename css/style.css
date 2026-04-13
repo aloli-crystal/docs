@@ -127,6 +127,14 @@ a:hover {
   color: #fff;
 }
 
+.lang-switch a:not(.active) {
+  opacity: 0.4;
+}
+
+.lang-switch a:not(.active):hover {
+  opacity: 0.8;
+}
+
 /* Hero */
 .hero {
   background: var(--hero-gradient);
@@ -267,6 +275,21 @@ footer {
   font-size: 0.85rem;
   border-top: 1px solid var(--border);
   margin-top: 2rem;
+}
+
+footer a {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: var(--accent);
+}
+
+footer .aloli {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  opacity: 0.6;
 }
 
 /* Responsive */
