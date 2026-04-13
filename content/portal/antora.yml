@@ -1,0 +1,5 @@
+name: portal
+title: 'aloli-crystal'
+version: '1.0'
+nav:
+  - modules/ROOT/nav.adoc

@@ -1,0 +1,83 @@
+= aloli-crystal -- Crystal Ecosystem
+
+A comprehensive suite of Crystal shards for document processing, presentation, authentication, and tooling.
+
+== Document Processing
+
+[cols="2,4,1"]
+|===
+| Shard | Description | Version
+
+| https://github.com/aloli-crystal/crystal-asciidoctor[crystal-asciidoctor]
+| Complete AsciiDoc processing pipeline: AST model, parser, substitution engine, converters (HTML5, DocBook 5, Manpage). Ported from Ruby Asciidoctor 2.0.26.
+| 2.0.26
+
+| https://github.com/aloli-crystal/crystal-asciidoctor-pdf[crystal-asciidoctor-pdf]
+| AsciiDoc to PDF converter with syntax highlighting, tables, images, bookmarks, custom themes, and TrueType font embedding. Ported from asciidoctor-pdf 2.3.24.
+| 2.3.24
+
+| https://github.com/aloli-crystal/crystal-asciidoctor-epub3[crystal-asciidoctor-epub3]
+| AsciiDoc to EPUB3 converter with cover pages, table of contents, footnotes, and web application API. Ported from asciidoctor-epub3 2.3.0.
+| 2.3.0
+
+| https://github.com/aloli-crystal/crystal-kramdown-asciidoc[crystal-kramdown-asciidoc]
+| Markdown (CommonMark) to AsciiDoc converter. Handles headings, lists, tables, code blocks, images, links. Ported from kramdown-asciidoc 2.1.1.
+| 2.1.1
+|===
+
+== Presentation & Diagrams
+
+[cols="2,4,1"]
+|===
+| Shard | Description | Version
+
+| https://github.com/aloli-crystal/crystal-asciidoctor-revealjs[crystal-asciidoctor-revealjs]
+| AsciiDoc to reveal.js HTML presentations. 11 themes, speaker notes, fragments, background images. Ported from asciidoctor-reveal.js 5.2.0.
+| 5.2.0
+
+| https://github.com/aloli-crystal/crystal-asciidoctor-kroki[crystal-asciidoctor-kroki]
+| Render 28 diagram types (PlantUML, Mermaid, Ditaa, Graphviz...) via the Kroki.io API. No local tools needed. Ported from asciidoctor-kroki 0.10.2.
+| 0.10.2
+
+| https://github.com/aloli-crystal/crystal-asciidoctor-diagram[crystal-asciidoctor-diagram]
+| Render 15 diagram types by calling external tools (PlantUML, Mermaid, D2...). SHA256-based cache. Ported from asciidoctor-diagram 3.2.1.
+| 3.2.1
+
+| https://github.com/aloli-crystal/crystal-asciidoctor-mathematical[crystal-asciidoctor-mathematical]
+| STEM/Math processing with KaTeX or MathJax. Client-side or server-side rendering. Inspired by asciidoctor-mathematical 0.3.5.
+| 0.1.0
+|===
+
+== Infrastructure
+
+[cols="2,4,1"]
+|===
+| Shard | Description | Version
+
+| https://github.com/aloli-crystal/crystal-pdf[crystal-pdf]
+| Pure Crystal PDF generation engine. Pages, text, graphics, images, formatted text, tables, SVG. Ported from Prawn/watzon/pdf.cr.
+| 0.2.0
+
+| https://github.com/aloli-crystal/crystal-rouge[crystal-rouge]
+| Pure Crystal syntax highlighter. 233 language lexers, HTML formatter, GitHub theme. Compatible with Pygments/Rouge CSS. Ported from Rouge 4.7.0.
+| 4.7.0
+
+| https://github.com/aloli-crystal/crystal-antora[crystal-antora]
+| AsciiDoc documentation site generator. Multi-component, navigation, dev server, dark mode, authentication support. Inspired by Antora.
+| 0.1.0
+|===
+
+== Authentication
+
+[cols="2,4,1"]
+|===
+| Shard | Description | Version
+
+| https://github.com/aloli-crystal/kemal-auth[kemal-auth]
+| Authentication library for Kemal: BCrypt passwords (CNIL-compliant), JWT tokens, sessions, SMTP config, password reset, user invitations.
+| 0.1.0
+
+| https://github.com/aloli-crystal/crystal-saml[crystal-saml]
+| SAML v2 SSO toolkit. AuthnRequest, Response parsing, SLO, SP metadata. Framework-agnostic. Ported from ruby-saml 1.18.1.
+| 1.18.1
+|===

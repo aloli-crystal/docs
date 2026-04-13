@@ -1,0 +1,43 @@
+site:
+  title: "aloli-crystal -- Ecosysteme Crystal"
+  url: https://aloli-crystal.github.io/docs
+  start_page: portal::index.adoc
+
+content:
+  sources:
+    # Portal home page
+    - url: .
+      start_path: content/portal
+    # Each shard's docs
+    - url: ../crystal-asciidoctor
+      start_path: docs
+    - url: ../crystal-pdf
+      start_path: docs
+    - url: ../crystal-rouge
+      start_path: docs
+    - url: ../crystal-asciidoctor-pdf
+      start_path: docs
+    - url: ../crystal-asciidoctor-epub3
+      start_path: docs
+    - url: ../crystal-asciidoctor-kroki
+      start_path: docs
+    - url: ../crystal-asciidoctor-diagram
+      start_path: docs
+    - url: ../crystal-asciidoctor-revealjs
+      start_path: docs
+    - url: ../crystal-asciidoctor-mathematical
+      start_path: docs
+    - url: ../crystal-kramdown-asciidoc
+      start_path: docs
+    - url: ../crystal-saml
+      start_path: docs
+    - url: ../crystal-antora
+      start_path: docs
+    - url: ../kemal-auth
+      start_path: docs
+
+ui:
+  bundle: default
+
+output:
+  dir: ./build/site
