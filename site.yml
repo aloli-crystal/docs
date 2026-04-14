@@ -27,7 +27,15 @@ content:
       start_path: docs
     - url: ../crystal-asciidoctor-mathematical
       start_path: docs
+    - url: ../crystal-kramdown
+      start_path: docs
     - url: ../crystal-kramdown-asciidoc
+      start_path: docs
+    - url: ../crystal-reverse-adoc
+      start_path: docs
+    - url: ../crystal-reverse-markdown
+      start_path: docs
+    - url: ../crystal-markdown
       start_path: docs
     - url: ../crystal-saml
       start_path: docs
