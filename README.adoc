@@ -1,0 +1,73 @@
+= aloli-crystal — Documentation Portal
+:toc: left
+
+Documentation portal for the https://github.com/aloli-crystal[aloli-crystal] ecosystem — a comprehensive suite of Crystal shards for document processing, presentations, authentication, and tooling.
+
+link:README.fr.adoc[Version française]
+
+== Live Site
+
+**https://aloli-crystal.github.io/docs/**
+
+== Shards (17)
+
+=== Document Processing
+
+[cols="2,1,3"]
+|===
+| Shard | Version | Description
+
+| https://github.com/aloli-crystal/crystal-asciidoctor[crystal-asciidoctor] | 2.0.26 | AsciiDoc parser (port of asciidoctor)
+| https://github.com/aloli-crystal/crystal-asciidoctor-pdf[crystal-asciidoctor-pdf] | 2.3.24 | AsciiDoc to PDF
+| https://github.com/aloli-crystal/crystal-asciidoctor-epub3[crystal-asciidoctor-epub3] | 2.3.0 | AsciiDoc to EPUB3
+| https://github.com/aloli-crystal/crystal-kramdown-asciidoc[crystal-kramdown-asciidoc] | 2.1.1 | Markdown to AsciiDoc
+|===
+
+=== Document Conversion
+
+[cols="2,1,3"]
+|===
+| Shard | Version | Description
+
+| https://github.com/aloli-crystal/crystal-kramdown[crystal-kramdown] | 2.5.2 | Markdown parser (CommonMark + GFM)
+| https://github.com/aloli-crystal/crystal-reverse-adoc[crystal-reverse-adoc] | 2.0.0 | HTML/Word to AsciiDoc
+| https://github.com/aloli-crystal/crystal-reverse-markdown[crystal-reverse-markdown] | 3.0.2 | HTML to Markdown
+| https://github.com/aloli-crystal/crystal-markdown[crystal-markdown] | 0.1.0 | Universal Markdown to PDF/EPUB/HTML
+|===
+
+=== Presentation & Diagrams
+
+[cols="2,1,3"]
+|===
+| Shard | Version | Description
+
+| https://github.com/aloli-crystal/crystal-asciidoctor-revealjs[crystal-asciidoctor-revealjs] | 5.2.0 | AsciiDoc to reveal.js
+| https://github.com/aloli-crystal/crystal-asciidoctor-kroki[crystal-asciidoctor-kroki] | 0.10.2 | Diagrams via Kroki.io
+| https://github.com/aloli-crystal/crystal-asciidoctor-diagram[crystal-asciidoctor-diagram] | 3.2.1 | Diagrams via local tools
+| https://github.com/aloli-crystal/crystal-asciidoctor-mathematical[crystal-asciidoctor-mathematical] | 0.1.0 | STEM/Math (KaTeX/MathJax)
+|===
+
+=== Infrastructure
+
+[cols="2,1,3"]
+|===
+| Shard | Version | Description
+
+| https://github.com/aloli-crystal/crystal-pdf[crystal-pdf] | 0.2.0 | Pure Crystal PDF engine
+| https://github.com/aloli-crystal/crystal-rouge[crystal-rouge] | 4.7.0 | Syntax highlighter (233 lexers)
+| https://github.com/aloli-crystal/crystal-antora[crystal-antora] | 0.1.0 | Documentation site generator
+|===
+
+=== Authentication
+
+[cols="2,1,3"]
+|===
+| Shard | Version | Description
+
+| https://github.com/aloli-crystal/kemal-auth[kemal-auth] | 0.1.0 | Kemal authentication
+| https://github.com/aloli-crystal/crystal-saml[crystal-saml] | 1.18.1 | SAML v2 SSO
+|===
+
+== License
+
+MIT
